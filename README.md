@@ -43,3 +43,4 @@ Add an admin section to the RailsGuest meeting the following requirements:
 ## Submissions
 
 To submit, create a new branch, push your changes, create a Pull Request and send the link.
+# Guest-Booking-App
