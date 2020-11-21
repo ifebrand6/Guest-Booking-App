@@ -1,0 +1,14 @@
+<table>
+    <tr><th>Name</th>
+        <th>Message</th>
+        <th>Status</th>
+        <th>Action</th>
+    </tr>
+    <%= @messages.each do |message|%>
+    <tr>
+            <td><%= message.name%></td>
+            <td><%= message.entry%></td>
+            <td><%= message.hidden_status%></td>
+    </tr>
+    <% end %>
+</table>
